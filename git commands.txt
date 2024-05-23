@@ -1,0 +1,19 @@
+git commands:
+======================
+to conenct to github repository:
+
+1)go to commandline 
+2)git init
+3)git remote add origin https://github.com/kirankumar99/practice1
+
+git add  -->add files to the staging area
+git commit-->commits the changes to git repo. each commit is associated with a unique Hash key
+
+git reset<filenames> -->removes one or more files from staging area
+
+git status -->Prints repository status
+
+
+in case of beanch-->commiting on the brach will not reflect on master as well as commit on master 
+will not reflect on branch.
+while merging the feature brach with master, all commits to the branch will bring to master.
